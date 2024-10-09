@@ -14,13 +14,13 @@
 To use this library, you need to import it into your Go module. You can install it with:
 
 ```bash
-go get github.com/yourusername/ticktackhttp
+go get github.com/naimsulejmani/tick-tack-http-lib
 ```
 
 ## Usage
 1. Import the library
 ```go 
-import "github.com/yourusername/ticktackhttp"
+import "github.com/naimsulejmani/tick-tack-http-lib"
 ```
 
 2. Use the library for HTTP requests
@@ -31,7 +31,7 @@ package main
 
 import (
     "fmt"
-    "github.com/yourusername/ticktackhttp"
+    "github.com/naimsulejmani/tick-tack-http-lib"
 )
 
 type Todo struct {
@@ -64,7 +64,7 @@ package main
 
 import (
     "fmt"
-    "github.com/yourusername/ticktackhttp"
+    "github.com/naimsulejmani/tick-tack-http-lib"
 )
 
 type Todo struct {
@@ -106,7 +106,7 @@ package main
 
 import (
     "fmt"
-    "github.com/yourusername/ticktackhttp"
+    "github.com/naimsulejmani/tick-tack-http-lib"
 )
 
 func main() {
